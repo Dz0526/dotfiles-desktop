@@ -3,3 +3,13 @@
 	name = Dz0526
 [core]
 	editor = vim
+[alias]
+	st = status
+	br = branch
+	d  = diff
+	ci = commit
+	a  = add
+	ft = fetch
+	ps = push
+	mg = merge
+	r  = rm

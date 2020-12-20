@@ -14,5 +14,8 @@ export GOPATH=$HOME/.go
 # PATH
 export PATH=$PATH:$GOPATH
 
+# Git alias
+alias g='git'
+
 eval "$(starship init bash)"
 
