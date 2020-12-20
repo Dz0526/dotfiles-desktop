@@ -1,0 +1,889 @@
+# この viminfo ファイルは Vim 8.2 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/New
+
+# 最後の Substitute 検索パターン:
+~MSle0&2
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1608427115,,"wq"
+:w
+|2,0,1608427103,,"w"
+:e cp.sh
+|2,0,1608426870,,"e cp.sh"
+:q
+|2,0,1608424760,,"q"
+:e .xinitrc
+|2,0,1608421312,,"e .xinitrc"
+:a
+|2,0,1608335807,,"a"
+:e ast/ast.go
+|2,0,1608334043,,"e ast/ast.go"
+:e parser/parser.go
+|2,0,1608332778,,"e parser/parser.go"
+:q!
+|2,0,1608332454,,"q!"
+:shell
+|2,0,1608252454,,"shell"
+:G183
+|2,0,1608251687,,"G183"
+:vs
+|2,0,1608251602,,"vs"
+:ws
+|2,0,1608251360,,"ws"
+:e token/token.go
+|2,0,1608251286,,"e token/token.go"
+:e parser/parser_test.go
+|2,0,1608250580,,"e parser/parser_test.go"
+:e index.js
+|2,0,1607905351,,"e index.js"
+:e .Xresources
+|2,0,1607298724,,"e .Xresources"
+:e test
+|2,0,1607298573,,"e test"
+:PlugInstall
+|2,0,1607298316,,"PlugInstall"
+:e .config/i3/config
+|2,0,1607290857,,"e .config/i3/config"
+:'<,'>s/2/4/g
+|2,0,1607276780,,"'<,'>s/2/4/g"
+:'<,'>s/4/2/g
+|2,0,1607276769,,"'<,'>s/4/2/g"
+:s/2/4g
+|2,0,1607276731,,"s/2/4g"
+:s/2/4/
+|2,0,1607276726,,"s/2/4/"
+:q3
+|2,0,1607265716,,"q3"
+:!ls picture/wallpaper/
+|2,0,1607208656,,"!ls picture/wallpaper/"
+:!mkdir picture/wallpaper && mv picture/*.jpg picture/wallpaper/
+|2,0,1607208641,,"!mkdir picture/wallpaper && mv picture/*.jpg picture/wallpaper/"
+:!vim
+|2,0,1607208609,,"!vim"
+:hi
+|2,0,1607207641,,"hi"
+:%s/x/X/g
+|2,0,1607203770,,"%s/x/X/g"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/New
+|2,1,1608335450,47,"New"
+?/parseExpression
+|2,1,1608335055,47,"parseExpression"
+?/Parse
+|2,1,1608332793,47,"Parse"
+?/ParseProgram
+|2,1,1608252338,47,"ParseProgram"
+?/Parseprogram
+|2,1,1608252319,47,"Parseprogram"
+?/Parser
+|2,1,1608251781,47,"Parser"
+?/parseIntegerL
+|2,1,1608250515,47,"parseIntegerL"
+? @$
+|2,1,1607822476,,"@$"
+?/Ctrl
+|2,1,1607300230,47,"Ctrl"
+? 2
+|2,1,1607276780,,"2"
+? 4
+|2,1,1607276769,,"4"
+?/s/4/2/g
+|2,1,1607276751,47,"s/4/2/g"
+?/ja
+|2,1,1607273681,47,"ja"
+?/font
+|2,1,1607273584,47,"font"
+?/--no-startup-id
+|2,1,1607269982,47,"--no-startup-id"
+?/move left
+|2,1,1607267051,47,"move left"
+?/mod+Ctrl+h
+|2,1,1607266974,47,"mod+Ctrl+h"
+?/mod+R
+|2,1,1607205691,47,"mod+R"
+? x
+|2,1,1607203770,,"x"
+?/mod+d
+|2,1,1607203403,47,"mod+d"
+?/mod+Shift+h
+|2,1,1607202966,47,"mod+Shift+h"
+?/mod+h
+|2,1,1607202880,47,"mod+h"
+?/exec --no-start
+|2,1,1607202621,47,"exec --no-start"
+?/exec
+|2,1,1607202607,47,"exec"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	#!/bin/bash
+	
+	DOT_FILES=(.bashrc .bash_profile …)
+	
+	for file in ${DOT_FILES[@]}
+	do
+	    ln -s $HOME/dotfiles/$file $HOME/$file
+	done
+|3,0,0,1,8,0,1608426875,"#!/bin/bash","","DOT_FILES=(.bashrc .bash_profile …)","","for file in ${DOT_FILES[@]}","do","    ln -s $HOME/dotfiles/$file $HOME/$file","done"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1608426878,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1608421325,""
+"3	LINE	0
+	:q
+|3,0,3,1,1,0,1608335840,":q"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1608335840,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1608335839,""
+"6	LINE	0
+	    :q
+|3,0,6,1,1,0,1608335839,"    :q"
+"7	LINE	0
+	    :q
+|3,0,7,1,1,0,1608335838,"    :q"
+"8	LINE	0
+	func TestIntegerLiteralExpression(t *testing.T) {
+	    input := "5;"
+	
+	    l := lexer.New(input)
+	    p := New(l)
+	    program := p.ParseProgram
+	    checkParserErrors(t, p)
+	
+	    if len(program.Statements) != 1 {
+	        t.Fatal("program has not enough statements. got=%d", len(program.Statements))
+	    }
+	    stmt, ok := program.Statements[0].(*ast.ExpressionStatement)
+	    if !ok {
+	        t.Fatalf("program.Statements[0] is not ast.ExpressionStatement. got=%T", program.Statements[0])
+	    }
+	
+	    literal, ok := stmt.Expression.(*ast.IntegerLiteral)
+	    if !ok {
+	        t.Fatalf("exp not *ast.IntegerLiteral. got=%T", stmt.Expression)
+	    }
+	    if literal.Value != 5 {
+	        t.Errorf("literal.Value not %d. got=%d", 5, literal.Value)
+	    }
+	    if literal.TokenLiteral() != "5" {
+	        t.Errorf("literal.TokenLiteral not %s. got=%s", "5", literal.TokenLiteral())
+	    }
+	}
+|3,0,8,1,27,0,1608332373,"func TestIntegerLiteralExpression(t *testing.T) {","    input := \"5;\"","","    l := lexer.New(input)","    p := New(l)","    program := p.ParseProgram","    checkParserErrors(t, p)","","    if len(program.Statements) != 1 {","        t.Fatal(\"program has not enough statements. got=%d\", len(program.Statements))","    }","    stmt, ok := program.Statements[0].(*ast.ExpressionStatement)","    if !ok {",>107
+|<"        t.Fatalf(\"program.Statements[0] is not ast.ExpressionStatement. got=%T\", program.Statements[0])","    }","","    literal, ok := stmt.Expression.(*ast.IntegerLiteral)","    if !ok {","        t.Fatalf(\"exp not *ast.IntegerLiteral. got=%T\", stmt.Expression)","    }","    if literal.Value != 5 {","        t.Errorf(\"literal.Value not %d. got=%d\", 5, literal.Value)","    }","    if literal.TokenLiteral() != \"5\" {",>90
+|<"        t.Errorf(\"literal.TokenLiteral not %s. got=%s\", \"5\", literal.TokenLiteral())","    }","}"
+"9	LINE	0
+	      <script></script>
+|3,0,9,1,1,0,1607906250,"      <script></script>"
+"j	CHAR	0
+	jkjjjkjkjkj':
+|3,0,19,0,1,0,1607822479,"jkjjjkjkjkj':"
+"-	CHAR	0
+	INT
+|3,0,36,0,1,0,1608335506,"INT"
+
+# ファイルマーク:
+'0  8  3  ~/cp.sh
+|4,48,8,3,1608427115,"~/cp.sh"
+'1  1  0  ~/.vimrc
+|4,49,1,0,1608424760,"~/.vimrc"
+'2  1  0  ~/.xprofile
+|4,50,1,0,1608421330,"~/.xprofile"
+'3  1  0  ~/.xinitrc
+|4,51,1,0,1608421299,"~/.xinitrc"
+'4  1  0  ~/.xinitrc
+|4,52,1,0,1608421299,"~/.xinitrc"
+'5  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,53,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+'6  140  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go
+|4,54,140,0,1608332375,"~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go"
+'7  138  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go
+|4,55,138,0,1608332375,"~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go"
+'8  166  1  ~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go
+|4,56,166,1,1608256090,"~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go"
+'9  233  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go
+|4,57,233,0,1608256090,"~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go"
+
+# ジャンプリスト (新しいものが先):
+-'  8  3  ~/cp.sh
+|4,39,8,3,1608427115,"~/cp.sh"
+-'  1  0  ~/dotfiles/setup.sh
+|4,39,1,0,1608426876,"~/dotfiles/setup.sh"
+-'  1  0  ~/cp.sh
+|4,39,1,0,1608426871,"~/cp.sh"
+-'  8  0  ~/dotfiles/setup.sh
+|4,39,8,0,1608426870,"~/dotfiles/setup.sh"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1608424760,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1608424760,"~/.vimrc"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1608421330,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1608421330,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1608421330,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1608421330,"~/.xprofile"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421328,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421328,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421328,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421328,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421299,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421299,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421299,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1608421299,"~/.xinitrc"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  210  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,210,0,1608335844,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  125  0  ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+|4,39,125,0,1608335827,"~/.go/src/github.com/Dz0526/monkey/ast/ast.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  64  31  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,64,31,1608335646,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  211  20  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,211,20,1608335450,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  170  0  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,170,0,1608335303,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  104  17  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,104,17,1608335060,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+-'  104  17  ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+|4,39,104,17,1608335060,"~/.go/src/github.com/Dz0526/monkey/parser/parser.go"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/cp.sh
+	*	1608427109	0
+	"	8	3
+	^	7	34
+	.	7	33
+	+	1	0
+	+	3	93
+	+	7	33
+
+> ~/dotfiles/setup.sh
+	*	1608426875	0
+	"	1	0
+	^	8	0
+	.	8	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	4	0
+	+	5	27
+	+	7	4
+	+	8	0
+
+> ~/.vimrc
+	*	1608424758	0
+	"	1	0
+	^	1	0
+	.	34	40
+	+	1	24
+	+	2	9
+	+	24	17
+	+	15	12
+	+	29	46
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	30	48
+	+	31	21
+	+	32	27
+	+	33	20
+	+	34	0
+	+	35	4
+	+	6	38
+	+	7	29
+	+	9	14
+	+	13	15
+	+	4	15
+	+	11	18
+	+	8	28
+	+	18	43
+	+	20	37
+	+	21	0
+	+	20	26
+	+	21	26
+	+	34	40
+
+> ~/.xprofile
+	*	1608421328	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.xinitrc
+	*	1608421327	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.go/src/github.com/Dz0526/monkey/parser/parser.go
+	*	1608335840	0
+	"	210	0
+	^	209	14
+	.	210	0
+	+	8	11
+	+	186	55
+	+	187	48
+	+	189	59
+	+	190	19
+	+	191	77
+	+	192	39
+	+	193	17
+	+	196	20
+	+	198	13
+	+	192	17
+	+	53	51
+	+	54	29
+	+	160	46
+	+	152	59
+	+	153	64
+	+	154	34
+	+	201	57
+	+	202	40
+	+	204	38
+	+	207	16
+	+	209	45
+	+	211	20
+	+	55	0
+	+	56	0
+	+	55	55
+	+	56	31
+	+	209	13
+	+	210	0
+
+> ~/.go/src/github.com/Dz0526/monkey/ast/ast.go
+	*	1608335826	0
+	"	125	0
+	^	125	5
+	.	125	4
+	+	116	28
+	+	118	14
+	+	121	49
+	+	122	73
+	+	123	73
+	+	125	30
+	+	127	12
+	+	126	15
+	+	128	25
+	+	142	0
+	+	131	0
+	+	133	0
+	+	131	25
+	+	132	5
+	+	133	5
+	+	132	74
+	+	133	52
+	+	136	30
+	+	137	0
+	+	138	0
+	+	137	36
+	+	138	21
+	+	140	22
+	+	133	51
+	+	125	4
+
+> ~/.go/src/github.com/Dz0526/monkey/parser/parser_test.go
+	*	1608334673	0
+	"	182	18
+	^	182	19
+	.	182	18
+	+	166	50
+	+	166	16
+	+	166	24
+	+	166	14
+	+	166	29
+	+	166	26
+	+	166	38
+	+	166	83
+	+	166	63
+	+	166	13
+	+	166	102
+	+	166	55
+	+	166	13
+	+	166	71
+	+	166	28
+	+	166	65
+	+	166	39
+	+	166	83
+	+	166	35
+	+	140	0
+	+	139	0
+	+	166	1
+	+	167	0
+	+	166	1
+	+	140	33
+	+	141	15
+	+	156	54
+	+	158	44
+	+	160	24
+	+	161	58
+	+	163	34
+	+	164	65
+	+	161	45
+	+	168	49
+	+	169	29
+	+	172	25
+	+	171	20
+	+	170	23
+	+	171	23
+	+	172	23
+	+	173	6
+	+	174	24
+	+	175	25
+	+	178	36
+	+	179	30
+	+	180	17
+	+	181	34
+	+	182	28
+	+	190	17
+	+	184	0
+	+	192	56
+	+	193	16
+	+	194	79
+	+	196	40
+	+	197	81
+	+	199	63
+	+	200	17
+	+	7	7
+	+	205	76
+	+	206	39
+	+	207	12
+	+	208	56
+	+	209	19
+	+	212	29
+	+	213	67
+	+	213	0
+	+	215	0
+	+	213	64
+	+	214	19
+	+	217	0
+	+	216	0
+	+	217	53
+	+	218	80
+	+	222	14
+	+	182	18
+
+> ~/.go/src/github.com/Dz0526/monkey/token/token.go
+	*	1608251634	0
+	"	3	0
+
+> ~/.bashrc
+	*	1608250077	0
+	"	15	24
+	^	15	25
+	.	15	24
+	+	16	0
+	+	17	3
+	+	18	0
+	+	19	0
+	+	11	7
+	+	12	6
+	+	15	19
+	+	12	13
+	+	15	24
+
+> ~/projects/develop/js_fetch_test/index.js
+	*	1607907020	0
+	"	14	28
+	^	14	32
+	.	14	31
+	+	1	20
+	+	2	9
+	+	17	0
+	+	16	0
+	+	2	63
+	+	3	14
+	+	4	23
+	+	5	26
+	+	6	23
+	+	7	37
+	+	5	26
+	+	9	26
+	+	11	17
+	+	12	21
+	+	13	48
+	+	14	7
+	+	13	12
+	+	14	31
+
+> ~/projects/develop/js_fetch_test/index.html
+	*	1607906318	0
+	"	13	6
+	^	7	46
+	.	7	45
+	+	1	0
+	+	4	21
+	+	5	0
+	+	9	0
+	+	12	0
+	+	13	0
+	+	10	22
+	+	11	56
+	+	12	0
+	+	6	72
+	+	7	45
+
+> ~/.config/i3/config
+	*	1607822435	0
+	"	1	0
+	^	207	12
+	.	208	0
+	+	70	13
+	+	71	13
+	+	72	13
+	+	73	13
+	+	94	19
+	+	62	0
+	+	67	1
+	+	53	29
+	+	197	73
+	+	56	44
+	+	82	19
+	+	83	19
+	+	84	19
+	+	85	19
+	+	94	16
+	+	82	19
+	+	85	19
+	+	201	0
+	+	200	26
+	+	25	29
+	+	11	0
+	+	12	0
+	+	18	0
+	+	20	0
+	+	15	12
+	+	16	12
+	+	15	12
+	+	16	12
+	+	203	37
+	+	25	40
+	+	206	95
+	+	206	59
+	+	208	0
+	+	207	11
+	+	208	0
+
+> ~/.Xresources
+	*	1607298732	0
+	"	2	0
+	^	14	0
+	.	14	0
+	+	3	0
+	+	1	17
+	+	3	28
+	+	2	15
+	+	1	17
+	+	4	21
+	+	11	15
+	+	7	15
+	+	8	11
+	+	8	14
+	+	11	16
+	+	8	16
+	+	7	11
+	+	12	22
+	+	8	0
+	+	11	20
+	+	11	30
+	+	11	17
+	+	11	26
+	+	11	16
+	+	11	17
+	+	1	15
+	+	2	13
+	+	3	24
+	+	4	16
+	+	11	17
+	+	14	0
+	+	11	24
+	+	11	34
+	+	11	20
+	+	11	30
+	+	11	33
+	+	11	43
+	+	11	17
+	+	11	27
+	+	11	20
+	+	11	26
+	+	11	34
+	+	11	45
+	+	11	0
+	+	11	17
+	+	11	0
+	+	8	0
+	+	9	0
+	+	11	17
+	+	9	18
+	+	10	27
+	+	9	0
+	+	10	0
+	+	8	0
+	+	9	19
+	+	10	28
+	+	9	24
+	+	10	33
+	+	9	17
+	+	10	27
+	+	9	41
+	+	10	30
+	+	9	34
+	+	10	30
+	+	9	34
+	+	15	0
+	+	14	0
+
+> ~/nord-dircolors/CHANGELOG.md
+	*	1607298645	0
+	"	1	0
+
+> ~/test
+	*	1607298597	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.dir_colors
+	*	1607296383	0
+	"	256	0
+	.	257	0
+	+	1	0
+	+	257	0
+
+> ~/nord-dircolors/src/dir_colors
+	*	1607296343	0
+	"	1	0
+
+> ~/test.py
+	*	1607294370	0
+	"	1	0
+	^	27	0
+	.	26	0
+	+	1	11
+	+	1	0
+	+	26	0
+
+> ~/.config/starship.toml
+	*	1607294043	0
+	"	5	17
+	^	5	18
+	.	5	17
+	+	1	17
+	+	4	21
+	+	1	17
+	+	4	19
+	+	5	16
+	+	5	32
+	+	6	0
+	+	5	17
+
+> /etc/locale.gen
+	*	1607273686	0
+	"	301	0
+	^	301	0
+
+> ~/.xintrc
+	*	1607269563	0
+	"	1	0
+
+> /etc/locale.conf
+	*	1607268787	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/kami
+	*	1607207321	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
