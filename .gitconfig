@@ -13,3 +13,4 @@
 	ps = push
 	mg = merge
 	r  = rm
+	lg = log
