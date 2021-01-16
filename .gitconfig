@@ -14,3 +14,5 @@
 	mg = merge
 	r  = rm
 	lg = log
+	ch = checkout
+	cb = checkout -b

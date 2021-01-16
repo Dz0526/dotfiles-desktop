@@ -2,3 +2,5 @@
 .config/google-chrome
 .config/fontforge
 .config/fcitx
+.config/pulse
+.config/dconf/user

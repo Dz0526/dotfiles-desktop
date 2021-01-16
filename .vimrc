@@ -6,6 +6,8 @@ set number
 call plug#begin(expand('~/.vim/plugged'))
 Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
+Plug 'skanehira/preview-markdown.vim'
+" use mdr (md parser)
 call plug#end()
 
 " color scheme nord
@@ -19,6 +21,9 @@ let g:airline#extensions#tabline#enabled = 1
 
 nmap <C-l> <Plug>AirlineSelectNextTab
 nmap <C-h> <Plug>AirlineSelectPrevTab
+
+" markdown.vim
+let g:preview_markdown_vertical = 1
 
 " indent
 if has("autocmd")
