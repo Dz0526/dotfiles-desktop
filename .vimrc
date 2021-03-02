@@ -1,5 +1,6 @@
 set clipboard=unnamedplus
 set number
+set wildmenu
 
 " Plugin manager
 

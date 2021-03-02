@@ -17,5 +17,8 @@ export PATH=$PATH:$GOPATH
 # Git alias
 alias g='git'
 
+# set vi mode
+set -o vi
+
 eval "$(starship init bash)"
 
