@@ -8,6 +8,7 @@ call plug#begin(expand('~/.vim/plugged'))
 Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'skanehira/preview-markdown.vim'
+Plug 'kovisoft/slimv'
 " use mdr (md parser)
 call plug#end()
 
@@ -25,6 +26,23 @@ nmap <C-h> <Plug>AirlineSelectPrevTab
 
 " markdown.vim
 let g:preview_markdown_vertical = 1
+
+" slimv
+let g:paredit_mode = 1
+let g:paredit_electric_return = 0
+
+let g:slimv_repl_split = 4
+let g:slimv_repl_name = 'REPL'
+
+let g:slimv_lisp = '/usr/local/bin/ros run'
+let g:slimv_impl = 'sbcl'
+
+let g:slimv_swank_cmd = "!ros -e '(ql:quickload :swank) (swank:create-server)' wait &"
+
+let g:swank_port = 4005
+let g:lisp_rainbow = 1
+
+autocmd BufNewFile,BufRead *.asd set filetype = lisp
 
 " indent
 if has("autocmd")
