@@ -22,3 +22,6 @@ set -o vi
 
 eval "$(starship init bash)"
 
+# set thefuck
+eval "$(thefuck --alias)"
+
