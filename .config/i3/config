@@ -194,7 +194,7 @@ bar {
 }
 
 # feh
-exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/tux_white.jpg"
+exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/wallpaper_some_tux.jpg"
 
 # fcitx
 exec --no-startup-id "fcitx"
