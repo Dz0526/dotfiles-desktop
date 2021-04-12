@@ -24,4 +24,3 @@ eval "$(starship init bash)"
 
 # set thefuck
 eval "$(thefuck --alias)"
-

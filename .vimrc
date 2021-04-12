@@ -9,6 +9,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'kovisoft/slimv'
+Plug 'pangloss/vim-javascript'
 " use mdr (md parser)
 call plug#end()
 
