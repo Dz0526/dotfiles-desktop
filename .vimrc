@@ -10,6 +10,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'kovisoft/slimv'
 Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-commentary'
 " use mdr (md parser)
 call plug#end()
 
