@@ -9,6 +9,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'kovisoft/slimv'
+Plug 'preservim/nerdtree'
 " use mdr (md parser)
 call plug#end()
 
@@ -59,7 +60,13 @@ if has("autocmd")
 endif
 
 " keybind normal mode
-noremap <c-l> <c-w>l
-noremap <c-h> <c-w>h
-noremap <c-k> <c-w>k
-noremap <c-j> <c-w>j
+noremap <A-l> <c-w>l
+noremap <A-h> <c-w>h
+noremap <A-k> <c-w>k
+noremap <A-j> <c-w>j
+
+" keybind for NERDTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
