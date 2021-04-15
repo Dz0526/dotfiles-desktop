@@ -25,7 +25,9 @@ eval "$(starship init bash)"
 # set thefuck
 eval "$(thefuck --alias)"
 
+source /usr/share/nvm/init-nvm.sh
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# startup command
