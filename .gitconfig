@@ -16,3 +16,5 @@
 	lg = log
 	ch = checkout
 	cb = checkout -b
+[init]
+	defaultBranch = main

@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'kovisoft/slimv'
 Plug 'pangloss/vim-javascript'
+Plug 'justmao945/vim-clang'
 " use mdr (md parser)
 call plug#end()
 
@@ -52,6 +53,8 @@ if has("autocmd")
 	filetype indent on
 
 	autocmd FileType c	setlocal sw=2 sts=2 ts=2 et
+	autocmd FileType json	setlocal sw=2 sts=2 ts=2 et
+	autocmd FileType cpp	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType python	setlocal sw=4 sts=4 ts=4 et
 	autocmd FileType html	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType javascript	setlocal sw=2 sts=2 ts=2 et
@@ -60,7 +63,7 @@ if has("autocmd")
 endif
 
 " keybind normal mode
-noremap <c-l> <c-w>l
-noremap <c-h> <c-w>h
-noremap <c-k> <c-w>k
-noremap <c-j> <c-w>j
+"noremap <c-l> <c-w>l
+"noremap <c-h> <c-w>h
+"noremap <c-k> <c-w>k
+"noremap <c-j> <c-w>j
