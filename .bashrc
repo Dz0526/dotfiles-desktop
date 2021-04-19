@@ -11,8 +11,11 @@ PS1='[\u@\h \W]\$ '
 # GOPATH
 export GOPATH=$HOME/.go
 
+# TOOLPATH
+export TOOLPATH=$HOME/tools
+
 # PATH
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH:$TOOLPATH
 
 # Git alias
 alias g='git'
