@@ -25,6 +25,7 @@ Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'tpope/vim-endwise'
 Plug 'kassio/neoterm'
+Plug 'alvan/vim-closetag'
 " use mdr (md parser)
 call plug#end()
 
@@ -117,3 +118,6 @@ let g:deoplete#enable_at_startup = 1
 " config neoterm
 let g:neoterm_default_mod='belowright'
 let g:neoterm_size=10
+
+" closetag
+let g:closetag_filenames='*.html,*.erb'
