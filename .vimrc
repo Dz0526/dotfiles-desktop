@@ -16,6 +16,15 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
+Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'w0rp/ale'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'tpope/vim-endwise'
+Plug 'kassio/neoterm'
 " use mdr (md parser)
 call plug#end()
 
@@ -78,3 +87,33 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+" Snippets config
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+
+let g:UltiSnipsEditSplit="vertical"
+
+let g:UltiSnipsSnippetDirectories=['~/.vim/UltSnips/', '~/.vim/plugged/vim-snippets/UltiSnips/']
+
+" ale config
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 0
+
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+let g:ale_fixers = {
+\	'python':['flake8','autopep8'],
+\       'c':['clang'],
+\	'cpp':['clang'],
+\	'rb':['rubocop']
+\}
+
+" deo;lete config
+let g:deoplete#enable_at_startup = 1
+
+" config neoterm
+let g:neoterm_default_mod='belowright'
+let g:neoterm_size=10

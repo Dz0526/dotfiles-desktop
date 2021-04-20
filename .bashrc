@@ -14,8 +14,11 @@ export GOPATH=$HOME/.go
 # TOOLPATH
 export TOOLPATH=$HOME/tools
 
+# PYTHONPATH
+export PYTHONPATH=$HOME/.local/bin
+
 # PATH
-export PATH=$PATH:$GOPATH:$TOOLPATH
+export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH
 
 # Git alias
 alias g='git'
