@@ -26,6 +26,8 @@ Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'tpope/vim-endwise'
 Plug 'kassio/neoterm'
 Plug 'alvan/vim-closetag'
+Plug 'Shougo/vimproc.vim', {'do': 'make'}
+Plug 'Quramy/tsuquyomi'
 " use mdr (md parser)
 call plug#end()
 
@@ -73,6 +75,7 @@ if has("autocmd")
 	autocmd FileType python	setlocal sw=4 sts=4 ts=4 et
 	autocmd FileType html	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType javascript	setlocal sw=2 sts=2 ts=2 et
+	autocmd FileType typescript	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType css	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType go	setlocal sw=4 sts=4 ts=4 et
 endif
@@ -121,3 +124,12 @@ let g:neoterm_size=10
 
 " closetag
 let g:closetag_filenames='*.html,*.erb'
+
+" typescript
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+
+autocmd FileType typescript :set makeprg=tsc
+
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
