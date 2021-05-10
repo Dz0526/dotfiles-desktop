@@ -21,8 +21,11 @@ export TOOLPATH=$HOME/tools
 # PYTHONPATH
 export PYTHONPATH=$HOME/.local/bin
 
+# HOBBYPATH
+export HOBBYPATH=$HOME/hobby/pomocat
+
 # PATH
-export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH
+export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH
 
 # Git alias
 alias g='git'
