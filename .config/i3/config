@@ -194,7 +194,7 @@ bar {
 }
 
 # feh
-exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/tux_white.jpg"
+exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/wallpaper_some_tux.jpg"
 
 # fcitx
 exec --no-startup-id "fcitx"
@@ -205,3 +205,5 @@ exec --no-startup-id compton -cbm 0.75
 # screenshot
 bindsym Print exec import -window root ~/picture/screenshot/`date "+%y%m%d%H%M"`.jpg
 bindsym Ctrl+Print exec import ~/picture/screenshot/`date "+%y%m%d%H%M"`.jpg
+
+exec --no-startup-id "xrandr --output eDP1 --auto"

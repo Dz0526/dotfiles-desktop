@@ -8,6 +8,10 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+# alias
+alias cdc='pwd | xclip -selection c'
+alias cdp='cd `xclip -selection c -o`'
+
 # GOPATH
 export GOPATH=$HOME/.go
 
