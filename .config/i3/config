@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+Return exec xterm
 
 # start browser
-bindsym $mod+Ctrl+w exec google-chrome-stable
+bindsym $mod+Ctrl+w exec brave
 
 # kill focused window
 bindsym $mod+Shift+q kill

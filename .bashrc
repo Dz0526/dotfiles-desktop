@@ -12,6 +12,25 @@ PS1='[\u@\h \W]\$ '
 alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
 
+## cd
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+
+## ls
+alias la='ls -a'
+alias ll='ls -l'
+
+## python
+alias py='python'
+
+## yay
+alias ys='yay -S'
+alias yr='yay -R'
+
+## pacman
+alias pm='pacman'
+
 # GOPATH
 export GOPATH=$HOME/.go
 
