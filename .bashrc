@@ -12,6 +12,9 @@ PS1='[\u@\h \W]\$ '
 alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
 
+alias ygk='cd projects/youngeek/'
+alias dev='cd projects/develop/'
+
 ## cd
 alias ..='cd ..'
 alias ...='cd ../../'
