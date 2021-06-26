@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+eval `dircolors ~/.dir_colors`
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
@@ -12,8 +13,9 @@ PS1='[\u@\h \W]\$ '
 alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
 
-alias ygk='cd ~/projects/youngeek/'
+alias ygk='cd ~/projects/develop/youngeek/'
 alias dev='cd ~/projects/develop/'
+alias rit='cd ~/projects/develop/rit-inc/'
 
 ## cd
 alias ..='cd ..'
