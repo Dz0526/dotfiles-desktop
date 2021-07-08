@@ -36,8 +36,11 @@ alias yr='yay -R'
 ## pacman
 alias pm='pacman'
 
+## source
+alias so='source'
+
 # GOPATH
-export GOPATH=$HOME/.go
+export GOPATH=$HOME/go
 
 # TOOLPATH
 export TOOLPATH=$HOME/tools
@@ -47,6 +50,9 @@ export PYTHONPATH=$HOME/.local/bin
 
 # HOBBYPATH
 export HOBBYPATH=$HOME/hobby/pomocat
+
+# Qt
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # PATH
 export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH
