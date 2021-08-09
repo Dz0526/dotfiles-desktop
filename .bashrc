@@ -16,6 +16,7 @@ alias cdp='cd `xclip -selection c -o`'
 alias ygk='cd ~/projects/develop/youngeek/'
 alias dev='cd ~/projects/develop/'
 alias rit='cd ~/projects/develop/rit-inc/'
+alias lang='cd ~/projects/language'
 
 ## cd
 alias ..='cd ..'
