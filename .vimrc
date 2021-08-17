@@ -79,6 +79,7 @@ if has("autocmd")
 	autocmd FileType typescript	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType css	setlocal sw=2 sts=2 ts=2 et
 	autocmd FileType go	setlocal sw=4 sts=4 ts=4 et
+	autocmd FileType lisp	setlocal sw=2 sts=2 ts=2 et
 endif
 
 " keybind normal mode
