@@ -15,9 +15,11 @@
 	mg = merge
 	r  = rm
 	lg = log
+	lo = log --oneline
 	ch = checkout
 	cb = checkout -b
 	cl = clone
+	rb = rebase
 [init]
 	defaultBranch = main
 [ghq]
