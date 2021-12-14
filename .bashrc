@@ -58,8 +58,14 @@ export HOBBYPATH=$HOME/hobby/pomocat
 # Qt
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+# ANDROID_SDK
+export ANDROID_SDK=$HOME/Android/Sdk
+
 # PATH
-export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH
+export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH:$ANDROID_SDK
+
+# REACT_EDITOR
+export REACT_EDITOR=code
 
 # Git alias
 alias g='git'
