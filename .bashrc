@@ -110,3 +110,4 @@ bind -x '"\C-g": ghql'
 # history
 HISTSIZE=5000
 HISTFILESIZE=10000
+source ~/.git-completion.bash
