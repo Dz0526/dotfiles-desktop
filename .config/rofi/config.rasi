@@ -1,4 +1,4 @@
 configuration {
-  theme: "nord";
   font: "Roboto Condensed 10";
 }
+@theme "nord"
