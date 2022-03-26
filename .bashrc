@@ -111,3 +111,6 @@ bind -x '"\C-g": ghql'
 HISTSIZE=5000
 HISTFILESIZE=10000
 source ~/.git-completion.bash
+
+# enhancd
+source /usr/local/src/enhancd/init.sh
