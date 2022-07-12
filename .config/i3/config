@@ -210,6 +210,9 @@ exec --no-startup-id "fcitx"
 # compton
 exec --no-startup-id compton -cbm 0.75
 
+# bluetooth
+exec --no-startup-id "blueberry-tray"
+
 # screenshot
 bindsym Print exec import -window root ~/picture/screenshot/`date "+%y%m%d%H%M"`.jpg
 bindsym Ctrl+Print exec import ~/picture/screenshot/`date "+%y%m%d%H%M"`.jpg
