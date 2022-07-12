@@ -9,6 +9,7 @@
 	br = branch
 	d  = diff
 	ci = commit
+	ca = commit --amend
 	a  = add
 	ft = fetch
 	ps = push
