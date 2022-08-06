@@ -13,6 +13,7 @@
 	a  = add
 	ft = fetch
 	ps = push
+	pf = push --force-with-lease
 	mg = merge
 	r  = rm
 	lg = log
