@@ -114,3 +114,4 @@ source ~/.git-completion.bash
 
 # enhancd
 source /usr/local/src/enhancd/init.sh
+. "$HOME/.cargo/env"

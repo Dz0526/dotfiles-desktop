@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Nord i3lock
+
+i3lock \
+--blur 5 \
+--ring-color=#4C566A \
+--verif-color=#D8DEE9 \
+--wrong-color=#BF616A \
+--line-color=#434C5E \
+--inside-color=#2E3440 \
+--separator-color=#3B4252 \
+--ringver-color=#81A1C1 \
+--insidever-color=#2E3440 \
+--insidewrong-color=#2E3440 \
+--ringwrong-color=#BF616A \
+--keyhl-color=#81A1C1
