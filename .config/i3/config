@@ -223,3 +223,6 @@ exec --no-startup-id "flameshot"
 
 # screen lock
 exec --no-startup-id "xss-lock --transfer-sleep-lock -- $HOME/.config/i3/i3lock"
+
+# pulse audio applet
+exec --no-startup-id "pasystray"
