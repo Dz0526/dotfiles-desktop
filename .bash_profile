@@ -78,3 +78,14 @@ export ANDROID_SDK=/home/arch/Android/Sdk
 export ANDROID_SDK=/home/arch/Android/Sdk
 export ANDROID_SDK=/home/arch/Android/Sdk
 export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+. "$HOME/.cargo/env"
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk
+export ANDROID_SDK=/home/arch/Android/Sdk

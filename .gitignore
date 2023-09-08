@@ -25,3 +25,22 @@
 .config/autostart
 .config/Postman
 .config/configstore
+.config/Cider/
+.config/EVTV/
+.config/QtProject/
+.config/Unknown Organization/
+.config/cef_user_data/
+.config/gh/
+.config/ghc/
+.config/greenclip.toml
+.config/kwalletrc
+.config/menus/applications-merged/wine-Programs-Amazon-Amazon Kindle-Kindle.menu
+.config/menus/applications-merged/wine-Programs-Amazon-Amazon Kindle-Uninstall Kindle.menu
+.config/pypoetry/
+.config/rofi/rofi-themes-collection/
+.config/systemd/
+.config/thefuck/__pycache__/settings.cpython-310.pyc
+.config/thefuck/__pycache__/settings.cpython-311.pyc
+.config/via-nativia/
+.config/yarn/
+.config/zoom.conf

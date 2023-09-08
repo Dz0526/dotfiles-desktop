@@ -115,3 +115,5 @@ source ~/.git-completion.bash
 # enhancd
 source /usr/local/src/enhancd/init.sh
 . "$HOME/.cargo/env"
+
+[ -f "/home/arch/.ghcup/env" ] && source "/home/arch/.ghcup/env" # ghcup-env

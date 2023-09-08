@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 3.4.3.
+# Recent settings file for Wireshark 3.6.2.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -69,6 +69,10 @@ gui.bytes_encoding: FROM_PACKET
 # TRUE or FALSE (case-insensitive).
 gui.packet_diagram_field_values: FALSE
 
+# Allow hover selection in byte view.
+# TRUE or FALSE (case-insensitive).
+gui.allow_hover_selection: TRUE
+
 # Main window upper (or leftmost) pane size.
 # Decimal number.
 gui.geometry_main_upper_pane: 620
@@ -86,7 +90,7 @@ column.width:
         %d, -1,
         %p, -1,
         %L, -1,
-        %i, -1
+        %i, 756
 
 # Open conversation dialog tabs.
 # List of conversation names, e.g. "TCP", "IPv6".
@@ -101,7 +105,7 @@ gui.endpoint_tabs:
 gui.rlc_pdus_from_mac_frames: FALSE
 
 # Last directory navigated to in File Open dialog.
-gui.fileopen_remembered_dir: /home/arch/projects/ctf/picoGym/shark_on_wire_1/
+gui.fileopen_remembered_dir: /home/arch/projects/ctf/picoCTF2022/packets-primer/
 
 # Additional Toolbars shown
 # List of additional toolbars to show.

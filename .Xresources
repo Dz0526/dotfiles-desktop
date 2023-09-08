@@ -6,7 +6,7 @@ XTerm*saveLines: 2000
 !! Fonts and Encodein
 XTerm*utf8: True
 XTerm*utf8Title: True
-XTerm*faceName: FuraCode Nerd Font
+XTerm*faceName: FiraCode Nerd Font:style=Bold
 XTerm*faceNameDoublesize: Ricty
 XTerm*faceSize: 8
 XTerm*scaleHeight: 1.08

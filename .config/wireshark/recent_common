@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 3.4.3.
+# Common recent settings file for Wireshark 3.6.2.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -7,6 +7,7 @@
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
 recent.capture_file: /home/arch/projects/ctf/picoGym/shark_on_wire_1/capture.pcap
+recent.capture_file: /home/arch/projects/ctf/picoCTF2022/packets-primer/network-dump.flag.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
@@ -19,10 +20,10 @@ recent.display_filter: tcp
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 1292
+gui.geometry_main_x: 2572
 gui.geometry_main_y: 49
-gui.geometry_main_width: 1248
-gui.geometry_main_height: 2022
+gui.geometry_main_width: 1211
+gui.geometry_main_height: 2054
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
