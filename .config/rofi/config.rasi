@@ -1,5 +1,5 @@
 configuration {
-	modes: "drun,clipboard:greenclip print,action:action.sh,window";
+	modes: "drun,clipboard:greenclip print,action:~/.config/rofi/script/action.sh,window";
 	font: "Roboto Condensed 16";
 /*	location: 0;*/
 /*	yoffset: 0;*/

@@ -22,9 +22,17 @@
 	cb = checkout -b
 	cl = clone
 	rb = rebase
+	wta = worktree add
+	wtr = worktree remove
 [init]
 	defaultBranch = main
 [ghq]
 	root = /home/arch/projects
 [commit]
 	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

@@ -64,11 +64,18 @@ export ANDROID_SDK=$HOME/Android/Sdk
 # rofi script
 export ROFI_SCRIPT=$HOME/.config/rofi/script
 
+# Google Cloud
+export GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
+
 # PATH
-export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH:$ANDROID_SDK:$ROFI_SCRIPT
+export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH:$ANDROID_SDK:$ROFI_SCRIPT:$GOOGLE_APPLICATION_CREDENTIALS
 
 # REACT_EDITOR
 export REACT_EDITOR=code
+
+# ai-commit
+export PROVIDER=ollama
+export MODEL=mistral
 
 # Git alias
 alias g='git'
